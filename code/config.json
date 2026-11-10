@@ -1,0 +1,23 @@
+{
+  "project_name": "ed-stance",
+  "encoder_name": "vinai/bertweet-base",
+  "max_length": 128,
+  "dropout": 0.15,
+  "batch_size": 16,
+  "gradient_accumulation_steps": 2,
+  "learning_rate": 2e-5,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.1,
+  "epochs": 4,
+  "seeds": [13, 42, 71, 123, 2026],
+  "outer_folds": 5,
+  "auxiliary_labels": ["ED", "Informative", "Scientific"],
+  "auxiliary_loss_weight": 0.0,
+  "hierarchy_penalty_weight": 0.0,
+  "contrastive_loss_weight": 0.2,
+  "contrastive_temperature": 0.1,
+  "hard_neighbors_per_item": 3,
+  "primary_metric": "macro_f1",
+  "suffering_noninferiority_margin": -0.02,
+  "challenge_success_delta": 0.03
+}

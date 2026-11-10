@@ -1,0 +1,16 @@
+{
+  "project_name": "ed-stance-v2",
+  "max_length": 128,
+  "dropout": 0.15,
+  "batch_size": 16,
+  "gradient_accumulation_steps": 2,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.1,
+  "epochs": 4,
+  "screening_seeds": [13, 42],
+  "confirmation_seeds": [13, 42, 71, 123, 2026],
+  "outer_folds": 5,
+  "primary_metric": "macro_f1",
+  "suffering_noninferiority_margin": -0.02,
+  "note": "Shared hyperparameters mirror config.json; per-system encoder and learning rate live in run_screen_v2.py SPECS and each run.json."
+}

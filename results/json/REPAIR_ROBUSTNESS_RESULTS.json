@@ -1,0 +1,73 @@
+{
+  "per_seed_stability": {
+    "note": "Per-seed frozen->recalibrated promotion F1, using the CANONICAL per-fold thresholds from RECALIBRATION_RESULTS.json (not reimplemented).",
+    "per_seed": {
+      "13": {
+        "frozen": 0.46177847113884557,
+        "recal": 0.737885462555066,
+        "delta": 0.27610699141622047
+      },
+      "42": {
+        "frozen": 0.5644699140401146,
+        "recal": 0.7585470085470085,
+        "delta": 0.19407709450689392
+      },
+      "71": {
+        "frozen": 0.5299145299145299,
+        "recal": 0.720348204570185,
+        "delta": 0.19043367465565508
+      },
+      "123": {
+        "frozen": 0.6028169014084507,
+        "recal": 0.7663755458515283,
+        "delta": 0.16355864444307766
+      },
+      "2026": {
+        "frozen": 0.6124137931034482,
+        "recal": 0.7444933920704846,
+        "delta": 0.13207959896703636
+      }
+    },
+    "delta_min": 0.13207959896703636,
+    "delta_max": 0.27610699141622047,
+    "delta_mean": 0.19125120079777672,
+    "delta_seed_t_ci": [
+      0.12474008236155777,
+      0.2577623192339957
+    ],
+    "frozen_spread": 0.15063532196460266,
+    "recal_spread": 0.04602734128134334
+  },
+  "saerens_em_control": {
+    "note": "Saerens et al. (2002) EM prior-correction control: assumes label shift (p(x|y) fixed, prior moves). Our shift is the opposite (inputs moved, prior did not), so this should misfire.",
+    "est_priors_by_fold": {
+      "0": {
+        "train_prior": 0.23559870550161813,
+        "em_estimated_prior": 0.0915389082409021,
+        "true_test_prevalence": 0.236
+      },
+      "1": {
+        "train_prior": 0.23624595469255663,
+        "em_estimated_prior": 0.08930018039016416,
+        "true_test_prevalence": 0.236
+      },
+      "2": {
+        "train_prior": 0.23609314359637776,
+        "em_estimated_prior": 0.05639190611183246,
+        "true_test_prevalence": 0.236
+      },
+      "3": {
+        "train_prior": 0.23609314359637776,
+        "em_estimated_prior": 0.044288978342910686,
+        "true_test_prevalence": 0.236
+      },
+      "4": {
+        "train_prior": 0.23609314359637776,
+        "em_estimated_prior": 0.08776665016402146,
+        "true_test_prevalence": 0.236
+      }
+    },
+    "saerens_em_f1": 0.23529411764705882,
+    "frozen_f1_reference": 0.5419734904270986
+  }
+}

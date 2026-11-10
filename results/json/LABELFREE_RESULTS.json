@@ -1,0 +1,52 @@
+{
+  "thresholds": [
+    {
+      "fold": 0,
+      "frozen": 0.4699999999999999,
+      "clean_val_rate": 0.24271844660194175,
+      "thr_rateval": 0.20946001550424387,
+      "thr_ratetest": 0.27070675608724526
+    },
+    {
+      "fold": 1,
+      "frozen": 0.74,
+      "clean_val_rate": 0.22330097087378642,
+      "thr_rateval": 0.28520373027552276,
+      "thr_ratetest": 0.2444193478765841
+    },
+    {
+      "fold": 2,
+      "frozen": 0.58,
+      "clean_val_rate": 0.22653721682847897,
+      "thr_rateval": 0.25281806424804837,
+      "thr_ratetest": 0.193965616285714
+    },
+    {
+      "fold": 3,
+      "frozen": 0.5299999999999999,
+      "clean_val_rate": 0.2297734627831715,
+      "thr_rateval": 0.23317292203349274,
+      "thr_ratetest": 0.19329910164089026
+    },
+    {
+      "fold": 4,
+      "frozen": 0.4999999999999999,
+      "clean_val_rate": 0.23300970873786409,
+      "thr_rateval": 0.243756320946689,
+      "thr_ratetest": 0.22601366076024146
+    }
+  ],
+  "f1": {
+    "frozen": 0.5419734904270986,
+    "rate_match_val (label-free)": 0.7386363636363636,
+    "rate_match_test (label-free)": 0.7522123893805309,
+    "cdf_map + frozen thr (label-free)": 0.7351598173515982,
+    "labeled recalibration (reference)": 0.7590618336886994,
+    "oracle ceiling (reference)": 0.7837051406401552
+  },
+  "best_label_free": "rate_match_test (label-free)",
+  "best_delta_ci": [
+    0.17012304898145408,
+    0.25213394476782747
+  ]
+}

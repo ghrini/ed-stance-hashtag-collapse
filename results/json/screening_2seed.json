@@ -1,0 +1,198 @@
+{
+  "note": "Screening used seeds (13,42). singles_5seed added for transparency; confirmation seeds are (13,42,71,123,2026). Nested-threshold seed ensembles on identical frozen folds.",
+  "singles_2seed": {
+    "baseline": {
+      "macro_f1": 0.8768945,
+      "suffering_f1": 0.8921819,
+      "promoting_f1": 0.8616071
+    },
+    "bertweet_htdrop": {
+      "macro_f1": 0.8730731,
+      "suffering_f1": 0.8843398,
+      "promoting_f1": 0.8618063
+    },
+    "troberta_2022": {
+      "macro_f1": 0.8721209,
+      "suffering_f1": 0.89413,
+      "promoting_f1": 0.8501119
+    },
+    "deberta_v3": {
+      "macro_f1": 0.8692507,
+      "suffering_f1": 0.8914168,
+      "promoting_f1": 0.8470847
+    },
+    "bertweet_large": {
+      "macro_f1": 0.8736551,
+      "suffering_f1": 0.8964814,
+      "promoting_f1": 0.8508287
+    }
+  },
+  "singles_5seed": {
+    "baseline": {
+      "macro_f1": 0.8740205,
+      "suffering_f1": 0.8860501,
+      "promoting_f1": 0.861991
+    },
+    "bertweet_htdrop": {
+      "macro_f1": 0.870078,
+      "suffering_f1": 0.8845761,
+      "promoting_f1": 0.8555799
+    },
+    "troberta_2022": {
+      "macro_f1": 0.874052,
+      "suffering_f1": 0.9001041,
+      "promoting_f1": 0.848
+    },
+    "deberta_v3": {
+      "macro_f1": 0.8679123,
+      "suffering_f1": 0.8966942,
+      "promoting_f1": 0.8391304
+    },
+    "bertweet_large": {
+      "macro_f1": 0.8749425,
+      "suffering_f1": 0.8965517,
+      "promoting_f1": 0.8533333
+    }
+  },
+  "ensembles_2seed": {
+    "ens_base_deb": {
+      "macro_f1": 0.8739334,
+      "suffering_f1": 0.8949257,
+      "promoting_f1": 0.8529412
+    },
+    "ens_base_deb_large": {
+      "macro_f1": 0.8767539,
+      "suffering_f1": 0.8954147,
+      "promoting_f1": 0.8580931
+    },
+    "ens_base_htdrop": {
+      "macro_f1": 0.877057,
+      "suffering_f1": 0.8900256,
+      "promoting_f1": 0.8640884
+    },
+    "ens_base_htdrop_deb": {
+      "macro_f1": 0.8784338,
+      "suffering_f1": 0.8918233,
+      "promoting_f1": 0.8650442
+    },
+    "ens_base_htdrop_deb_large": {
+      "macro_f1": 0.8792501,
+      "suffering_f1": 0.8966581,
+      "promoting_f1": 0.8618421
+    },
+    "ens_base_htdrop_large": {
+      "macro_f1": 0.8734212,
+      "suffering_f1": 0.8935091,
+      "promoting_f1": 0.8533333
+    },
+    "ens_base_htdrop_trob": {
+      "macro_f1": 0.8785962,
+      "suffering_f1": 0.8915537,
+      "promoting_f1": 0.8656388
+    },
+    "ens_base_htdrop_trob_deb": {
+      "macro_f1": 0.8758414,
+      "suffering_f1": 0.8898043,
+      "promoting_f1": 0.8618785
+    },
+    "ens_base_htdrop_trob_deb_large": {
+      "macro_f1": 0.8808674,
+      "suffering_f1": 0.8955068,
+      "promoting_f1": 0.8662281
+    },
+    "ens_base_htdrop_trob_large": {
+      "macro_f1": 0.8728625,
+      "suffering_f1": 0.8910995,
+      "promoting_f1": 0.8546256
+    },
+    "ens_base_large": {
+      "macro_f1": 0.8775999,
+      "suffering_f1": 0.898374,
+      "promoting_f1": 0.8568257
+    },
+    "ens_base_trob": {
+      "macro_f1": 0.8765423,
+      "suffering_f1": 0.8959417,
+      "promoting_f1": 0.8571429
+    },
+    "ens_base_trob_deb": {
+      "macro_f1": 0.8774699,
+      "suffering_f1": 0.8956159,
+      "promoting_f1": 0.8593239
+    },
+    "ens_base_trob_deb_large": {
+      "macro_f1": 0.8776109,
+      "suffering_f1": 0.8955533,
+      "promoting_f1": 0.8596685
+    },
+    "ens_base_trob_large": {
+      "macro_f1": 0.8739879,
+      "suffering_f1": 0.8971963,
+      "promoting_f1": 0.8507795
+    },
+    "ens_deb_large": {
+      "macro_f1": 0.8754171,
+      "suffering_f1": 0.8965517,
+      "promoting_f1": 0.8542825
+    },
+    "ens_htdrop_deb": {
+      "macro_f1": 0.8773881,
+      "suffering_f1": 0.8887739,
+      "promoting_f1": 0.8660022
+    },
+    "ens_htdrop_deb_large": {
+      "macro_f1": 0.8766474,
+      "suffering_f1": 0.8945752,
+      "promoting_f1": 0.8587196
+    },
+    "ens_htdrop_large": {
+      "macro_f1": 0.8787502,
+      "suffering_f1": 0.8938144,
+      "promoting_f1": 0.8636859
+    },
+    "ens_htdrop_trob": {
+      "macro_f1": 0.8771981,
+      "suffering_f1": 0.8960084,
+      "promoting_f1": 0.8583878
+    },
+    "ens_htdrop_trob_deb": {
+      "macro_f1": 0.8796238,
+      "suffering_f1": 0.8980454,
+      "promoting_f1": 0.8612022
+    },
+    "ens_htdrop_trob_deb_large": {
+      "macro_f1": 0.8779985,
+      "suffering_f1": 0.8941548,
+      "promoting_f1": 0.8618421
+    },
+    "ens_htdrop_trob_large": {
+      "macro_f1": 0.8742988,
+      "suffering_f1": 0.8923885,
+      "promoting_f1": 0.8562092
+    },
+    "ens_trob_deb": {
+      "macro_f1": 0.8738813,
+      "suffering_f1": 0.8974224,
+      "promoting_f1": 0.8503401
+    },
+    "ens_trob_deb_large": {
+      "macro_f1": 0.8766955,
+      "suffering_f1": 0.8971963,
+      "promoting_f1": 0.8561947
+    },
+    "ens_trob_large": {
+      "macro_f1": 0.8744332,
+      "suffering_f1": 0.8964435,
+      "promoting_f1": 0.8524229
+    }
+  },
+  "dual_view_rejected_2seed_macro_f1": {
+    "baseline": 0.8396,
+    "bertweet_htdrop": 0.8615,
+    "troberta_2022": 0.7923,
+    "deberta_v3": 0.8467,
+    "bertweet_large": 0.8196,
+    "ensemble_all_five": 0.8525
+  },
+  "selected": "ens_base_htdrop_trob_deb_large"
+}

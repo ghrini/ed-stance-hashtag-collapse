@@ -1,0 +1,20 @@
+{
+  "note": "Threshold re-tuned on hashtag-stripped INNER-VALIDATION predictions (honest, no test labels touched), then applied to the outer-test stripped predictions.",
+  "recalibrated_thresholds_by_fold": {
+    "0": 0.18,
+    "1": 0.18,
+    "2": 0.19,
+    "3": 0.18,
+    "4": 0.22999999999999998
+  },
+  "f1_frozen_clean_threshold": 0.5419734904270986,
+  "f1_recalibrated": 0.7590618336886994,
+  "f1_oracle_upper_bound": 0.7837051406401552,
+  "f1_clean_best_case": 0.8684210526315789,
+  "delta_recal_minus_frozen": {
+    "delta": 0.21708834326160076,
+    "ci_low": 0.17410532160199726,
+    "ci_high": 0.26087222073135435
+  },
+  "fraction_of_oracle_gap_recovered": 0.8980551080930621
+}

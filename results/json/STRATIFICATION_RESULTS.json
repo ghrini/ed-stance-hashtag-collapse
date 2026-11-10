@@ -1,0 +1,54 @@
+{
+  "note": "Promotion label, hashtag-stripped test inputs. 'had_hashtag' = ablation changed this document's text; 'no_hashtag' = ablation is a no-op by construction.",
+  "pooled": {
+    "n": 1932,
+    "n_pos": 456,
+    "auprc": {
+      "delta": 0.04018441327924649,
+      "ci_low": 0.024106371159071337,
+      "ci_high": 0.05521945671599302
+    },
+    "best_f1": {
+      "delta": 0.005874017676478105,
+      "ci_low": -0.0044825012302537,
+      "ci_high": 0.019885830931736414
+    }
+  },
+  "had_hashtag": {
+    "n": 1058,
+    "n_pos": 351,
+    "auprc": {
+      "delta": 0.00023732007856480664,
+      "ci_low": -0.009410039842752838,
+      "ci_high": 0.00913197569804246
+    },
+    "best_f1": {
+      "delta": -0.004338655317104645,
+      "ci_low": -0.010563816936186207,
+      "ci_high": 0.005946857605496493
+    }
+  },
+  "no_hashtag": {
+    "n": 874,
+    "n_pos": 105,
+    "auprc": {
+      "delta": -0.0036414758419910376,
+      "ci_low": -0.0247190596014182,
+      "ci_high": 0.01792911919376014
+    },
+    "best_f1": {
+      "delta": 0.0016233766233766378,
+      "ci_low": -0.02752030384990807,
+      "ci_high": 0.029927877007264563
+    }
+  },
+  "stream1_nohash_natural_test": {
+    "n": 426,
+    "n_pos": 99,
+    "auprc": {
+      "delta": 0.00108230248076846,
+      "ci_low": -0.021455544087686493,
+      "ci_high": 0.022273935072814787
+    }
+  }
+}

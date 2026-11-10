@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+data/
+artifacts/
+runs/
+runs_v2/
+*.pt
+.env
